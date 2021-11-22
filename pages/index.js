@@ -1,4 +1,4 @@
-import LandingSection from "../components/landingSection"
+import LandingSection from "../components/landing-section/landingSection"
 export default function Home() {
   return (
     <div>
