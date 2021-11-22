@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import classes from './landingSection.module.css'
 import { Button, Modal } from 'react-bootstrap';
 
 export default function LandingSection() {
