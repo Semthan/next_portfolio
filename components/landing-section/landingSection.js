@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './landingSection.module.css'
+import Logo from './logo'
 import { Col, Container, Row } from 'react-bootstrap';
 
 export default function LandingSection() {
@@ -7,9 +8,7 @@ export default function LandingSection() {
     return (
         <Container fluid className="bg-light border border-5">
             <Row className="gap-5 border border-2">
-                <Col>g</Col>
-                <Col>g</Col>
-                <Col>g</Col>
+                <Col xs={3}><Logo /></Col>
                 <Col>g</Col>
                 <Col>g</Col>
                 <Col>g</Col>
