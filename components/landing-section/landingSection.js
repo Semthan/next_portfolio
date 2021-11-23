@@ -2,9 +2,9 @@ import React from 'react';
 import classes from './landingSection.module.css'
 import Nav from './navBar'
 import { Col, Container, Row } from 'react-bootstrap';
+import { FaLinkedin, FaInstagram, FaCodepen, FaGithub } from 'react-icons/fa'
 
 export default function LandingSection() {
-
     return (
         <>
             <Nav />
@@ -23,8 +23,11 @@ export default function LandingSection() {
                         </Col>
                     </Row>
                     <Row>
-                        <div>
-
+                        <div >
+                            <a href="https://www.linkedin.com/in/sarmad-a-99950697/"><FaLinkedin /></a>
+                            <a href="https://github.com/Semthan"><FaGithub /></a>
+                            <a href="https://codepen.io/Semthan"><FaCodepen /></a>
+                            <a href="https://www.instagram.com/semthan.dev"><FaInstagram /></a>
                         </div>
                     </Row>
                 </Container>
