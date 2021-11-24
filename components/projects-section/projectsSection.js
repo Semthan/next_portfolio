@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
-import pic from '../../public/images/cs.jpg'
+import Link from 'next/link'
 import classes from './ProjectsSection.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCard from './projectCard'
@@ -18,7 +17,7 @@ export default function ProjectsSection() {
                         <ProjectCard />
                     </Col>
                 </Row>
-                <p>More projects button..</p>
+                <Link href="projects" />
             </Container>
         </section >
     )
