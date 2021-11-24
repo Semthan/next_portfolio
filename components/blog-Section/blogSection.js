@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import classes from './blogSection.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import BlogCard from './blogCard'
@@ -19,7 +20,7 @@ export default function BlogSection() {
                         <BlogCard />
                     </Col>
                 </Row>
-                <p>More projects button..</p>
+                <Link href="blog" />
             </Container>
         </section >
     )
