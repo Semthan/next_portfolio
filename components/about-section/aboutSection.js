@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import classes from './aboutSection.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -18,7 +19,7 @@ export default function AboutSection() {
                             Sed ut convallis nunc. Aliquam porta laoreet lorem quis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mattis leo ac vestibulum gravida. Morbi aliquet, est in interdum
                             congue, risus elit fermentum justo, eget dignissim magna ante non tellus. Quisque ut ornare est.
                         </p>
-                        <p>Red more link!</p>
+                        <Link href="about">Read more</Link>
                     </Col>
                     <Col xs={1}></Col>
                 </Row>
