@@ -1,9 +1,11 @@
 import LandingSection from "../components/landing-section/landingSection"
+import ProjectsSection from "../components/projects-section/projectsSection"
 export default function Home() {
   return (
     <div>
-      <h1>Portfolio</h1>
       <LandingSection></LandingSection>
+
+      <ProjectsSection></ProjectsSection>
     </div>
   )
 }
