@@ -18,3 +18,23 @@ export async function getStaticProps({ params: { postId } }) {
         }
     }
 }
+
+
+// Fetch the other posts done at build time
+//create dynamic pages
+export async function getStaticPaths() {
+
+    const posts = await getAllPostsForHome(false);
+
+    let paths = posts.map((post) => ({
+        params: {
+            postId: post.sys.id
+        }
+    })
+    );
+
+    return {
+        paths,
+        fallback: true
+    }
+}
