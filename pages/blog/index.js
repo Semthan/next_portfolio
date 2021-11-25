@@ -23,7 +23,7 @@ export default function Blog({ allPosts }) {
                                         <img src={post.coverImage.url} alt={post.title} />
                                     </div>
                                     <div className={styles.details}>
-                                        <Link href={`posts/${post.sys.id}`} passHref>
+                                        <Link href={`blog/${post.sys.id}`} passHref>
                                             <Nav.Link>{post.title} &rarr;</Nav.Link>
                                         </Link>
                                         <p>{post.excerpt}</p>
