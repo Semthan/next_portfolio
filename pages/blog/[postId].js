@@ -1,4 +1,4 @@
-import React from 'react'
+import { getPostAndMorePosts } from "../../lib/api";
 
 export default function Post() {
     return (
@@ -6,4 +6,15 @@ export default function Post() {
 
         </div>
     )
+}
+
+// Fetch for a single post
+export async function getStaticProps({ params: { postId } }) {
+    let { post, relatedPosts } = await getPostAndMorePosts(false, postId);
+    return {
+        props: {
+            post,
+            relatedPosts
+        }
+    }
 }
