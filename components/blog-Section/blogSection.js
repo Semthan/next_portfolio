@@ -20,7 +20,7 @@ export default function BlogSection() {
                         <BlogCard />
                     </Col>
                 </Row>
-                <Link href="blog" />
+                <Link href="blog">read more</Link>
             </Container>
         </section >
     )

@@ -17,7 +17,7 @@ export default function ProjectsSection() {
                         <ProjectCard />
                     </Col>
                 </Row>
-                <Link href="projects" />
+                <Link href="/projects">More</Link>
             </Container>
         </section >
     )
