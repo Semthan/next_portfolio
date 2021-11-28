@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './ProjectsSection.module.css'
+import classes from './projectsSection.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCard from './projectCard'
 
