@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import pic from '../../public/images/cs.jpg'
 import classes from './ProjectsSection.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCard from './projectCard'
