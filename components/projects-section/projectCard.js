@@ -7,7 +7,7 @@ export default function ProjectCard() {
     return (
         <>
             <Card>
-                <Image className="img-fluid rounded" src={pic} />
+                <Image className="img-fluid rounded" src={pic} alt="project-thumbnail" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>

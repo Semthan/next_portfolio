@@ -7,7 +7,7 @@ export default function BlogCard() {
     return (
         <div>
             <Card>
-                <Image className="img-fluid rounded" src={pic} />
+                <Image className="img-fluid rounded" src={pic} alt="profile-pic" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
