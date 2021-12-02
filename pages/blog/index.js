@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from '../../styles/blog.module.css'
 import Link from 'next/link'
-
-
 import { getAllPostsForHome } from "../../lib/api"
 import { Nav } from 'react-bootstrap'
 
